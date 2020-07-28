@@ -7,6 +7,16 @@ class ImageDemo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
+    return new DecoratedBox(
+      decoration: new BoxDecoration(
+        image: new DecorationImage(
+          image: new AssetImage('assets/images/2.jpg'),
+          // ...
+        ),
+        // ...
+      ),
+    );
+
     return MaterialApp(
       title: '123',
       home: Scaffold(
@@ -14,8 +24,8 @@ class ImageDemo extends StatelessWidget {
           title: Text('Top Lakes'),
         ),
         body: Image.asset(
-          'assets/images/1.png',
-          fit: BoxFit.fitWidth,
+          'assets/images/2.jpg',
+          fit: BoxFit.contain,
         ),
       ),
     );
