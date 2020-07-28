@@ -1,8 +1,13 @@
 
 import 'package:appstation/src/college/imagewidget/ImageDemo.dart';
-import 'package:appstation/src/college/widget/MyAppBar.dart';
-import 'package:appstation/src/college/widget/TutoriaHome.dart';
-
+import 'package:appstation/src/college/widgetdir/base_component/MyAppBar.dart';
+import 'package:appstation/src/college/widgetdir/base_component/MyButton.dart';
+import 'package:appstation/src/college/widgetdir/base_component/MyColumn.dart';
+import 'package:appstation/src/college/widgetdir/base_component/MyContaioner.dart';
+import 'package:appstation/src/college/widgetdir/base_component/MyIcon.dart';
+import 'package:appstation/src/college/widgetdir/base_component/MyRow.dart';
+import 'package:appstation/src/college/widgetdir/base_component/MyScaffold.dart';
+import 'package:appstation/src/college/widgetdir/base_component/MyText.dart';
 import 'src/college/listview/listview.dart';
 import 'src/college/counter//counter.dart';
 import 'package:flutter/material.dart';
@@ -17,9 +22,9 @@ class MyApp extends StatelessWidget {
     return new MaterialApp(
       title: 'start up',
       theme: new ThemeData(
-        primaryColor: Colors.deepOrangeAccent,
+        primaryColor: Colors.green,
       ),
-      home: new ImageDemo(),
+      home: new MyAppBar(),
       //debugShowMaterialGrid: true,
     );
   }
