@@ -1,4 +1,8 @@
 
+import 'package:appstation/src/college/imagewidget/ImageDemo.dart';
+import 'package:appstation/src/college/widget/MyAppBar.dart';
+import 'package:appstation/src/college/widget/TutoriaHome.dart';
+
 import 'src/college/listview/listview.dart';
 import 'src/college/counter//counter.dart';
 import 'package:flutter/material.dart';
@@ -15,8 +19,8 @@ class MyApp extends StatelessWidget {
       theme: new ThemeData(
         primaryColor: Colors.deepOrangeAccent,
       ),
-      home: new MyHomePage(),
-      debugShowMaterialGrid: true,
+      home: new ImageDemo(),
+      //debugShowMaterialGrid: true,
     );
   }
 }
