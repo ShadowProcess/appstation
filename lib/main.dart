@@ -19,7 +19,6 @@ import 'src/college/listview/listview.dart';
 import 'src/college/counter//counter.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:transparent_image/transparent_image.dart';
 
 void main() => runApp(new MyApp());
 

@@ -1,12 +1,14 @@
 buildscript {
-    ext.kotlin_version = '1.3.50'
+    ext.kotlin_version = '1.3.72'
     repositories {
         google()
         jcenter()
+        maven { url "http://download.flutter.io" } //add the sentence
     }
 
     dependencies {
         classpath 'com.android.tools.build:gradle:4.1.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.72"
     }
 }
 
@@ -14,6 +16,7 @@ allprojects {
     repositories {
         google()
         jcenter()
+        maven { url "http://download.flutter.io" }
     }
 }
 

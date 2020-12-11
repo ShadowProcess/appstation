@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:english_words/english_words.dart';
 
 ///生成随机单词的
 class RandomWords extends StatefulWidget {
@@ -103,4 +102,10 @@ class RandomWordsState extends State<RandomWords> {
       ),
     );
   }
+
+  generateWordPairs() {}
+}
+
+class WordPair {
+  String get asPascalCase => null;
 }

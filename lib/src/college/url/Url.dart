@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 void main() {
   runApp(new MyApp());
@@ -30,4 +29,6 @@ class DemoPage extends StatelessWidget {
       ),
     );
   }
+
+  void launch(String s) {}
 }

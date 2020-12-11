@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:transparent_image/transparent_image.dart';
 
 
 ///JSON 用 JsonDecoder 或者加入 dart:convert 依赖 ， UTF8 用 Utf8Decoder
@@ -7,6 +6,8 @@ class NewWidget extends StatelessWidget {
   const NewWidget({
     Key key,
   }) : super(key: key);
+
+  get kTransparentImage => null;
 
   @override
   Widget build(BuildContext context) {

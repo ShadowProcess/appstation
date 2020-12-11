@@ -1,8 +1,9 @@
 
 import 'package:flutter/material.dart';
-import 'package:transparent_image/transparent_image.dart';
 
 class MyApp extends StatelessWidget {
+  get kTransparentImage => null;
+
   @override
   Widget build(BuildContext context) {
     //debugPaintSizeEnabled=true;
