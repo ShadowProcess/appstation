@@ -26,18 +26,18 @@ class _ExampleWidgetState extends State<ExampleWidget> {
             hintText: 'Type something',
           ),
         ),
-        new RaisedButton(
-          onPressed: () {
-            showDialog(
-              context: context,
-              child: new AlertDialog(
-                title: new Text('What you typed'),
-                content: new Text(_controller.text),
-              ),
-            );
-          },
-          child: new Text('DONE'),
-        ),
+        // new RaisedButton(
+        //   onPressed: () {
+        //     showDialog(
+        //       context: context,
+        //       child: new AlertDialog(
+        //         title: new Text('What you typed'),
+        //         content: new Text(_controller.text),
+        //       ),
+        //     );
+        //   },
+        //   child: new Text('DONE'),
+        // ),
       ],
     );
   }
